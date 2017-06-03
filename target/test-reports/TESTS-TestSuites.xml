@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="ES003235" id="0" name="ProdutoSpec" package="infracom" skipped="0" tests="3" time="5.317" timestamp="2017-05-30T18:14:58">
+      <properties />
+
+      <testcase classname="infracom.ProdutoSpec" name="test name cannot be null" time="4.889" />
+
+      <testcase classname="infracom.ProdutoSpec" name="test name cannot be blank" time="0.061" />
+
+      <testcase classname="infracom.ProdutoSpec" name="test name can have a maximum of 255 characters" time="0.235">
+          <failure message="Condition not satisfied:&#xa;&#xa;domain.errors[&apos;nome&apos;].code == &apos;maxSize.exceeded&apos;&#xa;|      |     |        |    |&#xa;|      |     |        |    false&#xa;|      |     |        |    12 differences (25% similarity)&#xa;|      |     |        |    (s---)ize.(toobig--)&#xa;|      |     |        |    (maxS)ize.(exceeded)&#xa;|      |     |        size.toobig&#xa;|      |     Field error in object &apos;infracom.Produto&apos; on field &apos;nome&apos;: rejected value [aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]; codes [infracom.Produto.nome.size.error.infracom.Produto.nome,infracom.Produto.nome.size.error.nome,infracom.Produto.nome.size.error.java.lang.String,infracom.Produto.nome.size.error,produto.nome.size.error.infracom.Produto.nome,produto.nome.size.error.nome,produto.nome.size.error.java.lang.String,produto.nome.size.error,infracom.Produto.nome.size.toobig.infracom.Produto.nome,infracom.Produto.nome.size.toobig.nome,infracom.Produto.nome.size.toobig.java.lang.String,infracom.Produto.nome.size.toobig,produto.nome.size.toobig.infracom.Produto.nome,produto.nome.size.toobig.nome,produto.nome.size.toobig.java.lang.String,produto.nome.size.toobig,size.toobig.infracom.Produto.nome,size.toobig.nome,size.toobig.java.lang.String,size.toobig]; arguments [nome,class infracom.Produto,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,1,255]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]&#xa;|      org.grails.datastore.mapping.validation.ValidationErrors: 1 errors&#xa;|      Field error in object &apos;infracom.Produto&apos; on field &apos;nome&apos;: rejected value [aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]; codes [infracom.Produto.nome.size.error.infracom.Produto.nome,infracom.Produto.nome.size.error.nome,infracom.Produto.nome.size.error.java.lang.String,infracom.Produto.nome.size.error,produto.nome.size.error.infracom.Produto.nome,produto.nome.size.error.nome,produto.nome.size.error.java.lang.String,produto.nome.size.error,infracom.Produto.nome.size.toobig.infracom.Produto.nome,infracom.Produto.nome.size.toobig.nome,infracom.Produto.nome.size.toobig.java.lang.String,infracom.Produto.nome.size.toobig,produto.nome.size.toobig.infracom.Produto.nome,produto.nome.size.toobig.nome,produto.nome.size.toobig.java.lang.String,produto.nome.size.toobig,size.toobig.infracom.Produto.nome,size.toobig.nome,size.toobig.java.lang.String,size.toobig]; arguments [nome,class infracom.Produto,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,1,255]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]&#xa;infracom.Produto : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+domain.errors[&apos;nome&apos;].code == &apos;maxSize.exceeded&apos;
+|      |     |        |    |
+|      |     |        |    false
+|      |     |        |    12 differences (25% similarity)
+|      |     |        |    (s---)ize.(toobig--)
+|      |     |        |    (maxS)ize.(exceeded)
+|      |     |        size.toobig
+|      |     Field error in object &apos;infracom.Produto&apos; on field &apos;nome&apos;: rejected value [aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]; codes [infracom.Produto.nome.size.error.infracom.Produto.nome,infracom.Produto.nome.size.error.nome,infracom.Produto.nome.size.error.java.lang.String,infracom.Produto.nome.size.error,produto.nome.size.error.infracom.Produto.nome,produto.nome.size.error.nome,produto.nome.size.error.java.lang.String,produto.nome.size.error,infracom.Produto.nome.size.toobig.infracom.Produto.nome,infracom.Produto.nome.size.toobig.nome,infracom.Produto.nome.size.toobig.java.lang.String,infracom.Produto.nome.size.toobig,produto.nome.size.toobig.infracom.Produto.nome,produto.nome.size.toobig.nome,produto.nome.size.toobig.java.lang.String,produto.nome.size.toobig,size.toobig.infracom.Produto.nome,size.toobig.nome,size.toobig.java.lang.String,size.toobig]; arguments [nome,class infracom.Produto,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,1,255]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]
+|      org.grails.datastore.mapping.validation.ValidationErrors: 1 errors
+|      Field error in object &apos;infracom.Produto&apos; on field &apos;nome&apos;: rejected value [aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa]; codes [infracom.Produto.nome.size.error.infracom.Produto.nome,infracom.Produto.nome.size.error.nome,infracom.Produto.nome.size.error.java.lang.String,infracom.Produto.nome.size.error,produto.nome.size.error.infracom.Produto.nome,produto.nome.size.error.nome,produto.nome.size.error.java.lang.String,produto.nome.size.error,infracom.Produto.nome.size.toobig.infracom.Produto.nome,infracom.Produto.nome.size.toobig.nome,infracom.Produto.nome.size.toobig.java.lang.String,infracom.Produto.nome.size.toobig,produto.nome.size.toobig.infracom.Produto.nome,produto.nome.size.toobig.nome,produto.nome.size.toobig.java.lang.String,produto.nome.size.toobig,size.toobig.infracom.Produto.nome,size.toobig.nome,size.toobig.java.lang.String,size.toobig]; arguments [nome,class infracom.Produto,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,1,255]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]
+infracom.Produto : (unsaved)
+
+	at infracom.ProdutoSpec.test name can have a maximum of 255 characters(ProdutoSpec.groovy:42)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test name cannot be null--
+--Output from test name cannot be blank--
+--Output from test name can have a maximum of 255 characters--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test name cannot be null--
+--Output from test name cannot be blank--
+--Output from test name can have a maximum of 255 characters--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
